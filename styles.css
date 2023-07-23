@@ -1,1 +1,86 @@
 /* Write your CSS here! */
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 8px;
+	background-color: #f6f5ff;
+   display:block
+}
+
+#mainHeading {
+    text-align: center;
+    /* padding: 0.01em; */
+    font-size: 2em;
+    color: red; 
+}
+
+header p {
+    padding: 1em;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #632340;
+    text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+} 
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  }
+
+.row:after {
+  display: table;
+ }
+
+
+
+
+header h2 { 
+
+    color: rgba(131, 72, 5, 0.74); 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav ul li {
+ 
+    display: flow-root;
+    font-size: 1.1em;
+    padding: 0.8em;
+    color: #632338; 
+    font-weight: 800; 
+    
+}
+
+
+
+img {
+	width: 151cm;
+	max-width: 30%;
+    margin-top: 15%;
+}
+
+
+main {
+    text-align: center; 
+    font-size: 1.2em;
+    color: #632338;
+    font-style: italic;
+    /* padding: 10em; */
+}
+
+#testP,
+.funParagraph {
+    color:green;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    
+}
