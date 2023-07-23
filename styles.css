@@ -71,8 +71,7 @@ main {
     font-size: 1.2em;
     color: #632338;
     font-style: italic;
-    /* padding: 10em; */
-}
+    }
 
 #testP,
 .funParagraph {
